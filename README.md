@@ -1,12 +1,45 @@
-# React + Vite
+# 📚 Book Finder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **React frontend web application** for searching and browsing books using the Open Library API.  
+Perfect for students like Alex who want to search, view, and navigate books efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔹 Search books by **title** using the Open Library Search API.  
+- 🔹 Display **book cover, title, author(s), and first published year**.  
+- 🔹 Click a book to open its **Open Library page** for borrowing/downloading.  
+- 🔹 **Pagination**: Browse results with 10 books per page.  
+- 🔹 **Loading state** to show when fetching data.  
+- 🔹 **Error handling** if no books are found or API fails.  
+- 🔹 **Responsive design** for mobile, tablet, and desktop devices.  
+- 🔹 Built with **React**, **Axios**, and **plain CSS**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- React  
+- Axios (for API requests)  
+- CSS (Flexbox + Grid + Media Queries)  
+- Open Library API:  
+
+
+## ⚡ How to Run Locally:
+
+1. **Clone the repository**
+ ```bash
+  git clone https://github.com/your-username/book-finder-app.git
+
+2. **Navigate to project folder:**:
+  cd book-finder-web-app
+
+3.**Install dependencies**:
+  npm install
+
+4. **Start development server**:
+  npm run dev
+
+5. **Open in Browser**:
+    http://localhost:5173/
